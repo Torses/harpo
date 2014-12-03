@@ -1,0 +1,169 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'method',
+1 verbose cli   'Override' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json MDBServer@1.0.0 No repository field.
+6 warn package.json MDBServer@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'method', null ]
+9 verbose cache add name=undefined spec="method" args=["method",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'method',
+10 verbose parsed url   path: 'method',
+10 verbose parsed url   href: 'method' }
+11 verbose cache add [ 'Override', null ]
+12 verbose cache add name=undefined spec="Override" args=["Override",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'Override',
+13 verbose parsed url   path: 'Override',
+13 verbose parsed url   href: 'Override' }
+14 silly lockFile bfbaf8b2-method method
+15 verbose lock method C:\Users\Sergio\AppData\Roaming\npm-cache\bfbaf8b2-method.lock
+16 silly lockFile 84219262-Override Override
+17 verbose lock Override C:\Users\Sergio\AppData\Roaming\npm-cache\84219262-Override.lock
+18 silly lockFile bfbaf8b2-method method
+19 silly lockFile bfbaf8b2-method method
+20 silly lockFile 84219262-Override Override
+21 silly lockFile 84219262-Override Override
+22 verbose addNamed [ 'method', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile b5326ea9-method method@
+25 verbose lock method@ C:\Users\Sergio\AppData\Roaming\npm-cache\b5326ea9-method.lock
+26 verbose addNamed [ 'Override', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile 2789fa75-Override Override@
+29 verbose lock Override@ C:\Users\Sergio\AppData\Roaming\npm-cache\2789fa75-Override.lock
+30 silly addNameRange { name: 'method', range: '*', hasData: false }
+31 verbose request where is /method
+32 verbose request registry https://registry.npmjs.org/
+33 verbose request id cf8128a9da45f4d9
+34 verbose url raw /method
+35 verbose url resolving [ 'https://registry.npmjs.org/', './method' ]
+36 verbose url resolved https://registry.npmjs.org/method
+37 verbose request where is https://registry.npmjs.org/method
+38 info trying registry request attempt 1 at 12:19:08
+39 http GET https://registry.npmjs.org/method
+40 silly addNameRange { name: 'Override', range: '*', hasData: false }
+41 verbose request where is /Override
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /Override
+44 verbose url resolving [ 'https://registry.npmjs.org/', './Override' ]
+45 verbose url resolved https://registry.npmjs.org/Override
+46 verbose request where is https://registry.npmjs.org/Override
+47 info trying registry request attempt 1 at 12:19:08
+48 http GET https://registry.npmjs.org/Override
+49 http 404 https://registry.npmjs.org/Override
+50 verbose headers { date: 'Wed, 03 Dec 2014 11:19:24 GMT',
+50 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 verbose headers   'content-type': 'application/json',
+50 verbose headers   'cache-control': 'max-age=0',
+50 verbose headers   'content-length': '52',
+50 verbose headers   'accept-ranges': 'bytes',
+50 verbose headers   via: '1.1 varnish',
+50 verbose headers   age: '0',
+50 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+50 verbose headers   'x-cache': 'MISS',
+50 verbose headers   'x-cache-hits': '0',
+50 verbose headers   'x-timer': 'S1417605564.675372,VS0,VE160',
+50 verbose headers   'keep-alive': 'timeout=10, max=50',
+50 verbose headers   connection: 'Keep-Alive' }
+51 silly registry.get cb [ 404,
+51 silly registry.get   { date: 'Wed, 03 Dec 2014 11:19:24 GMT',
+51 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 silly registry.get     'content-type': 'application/json',
+51 silly registry.get     'cache-control': 'max-age=0',
+51 silly registry.get     'content-length': '52',
+51 silly registry.get     'accept-ranges': 'bytes',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     age: '0',
+51 silly registry.get     'x-served-by': 'cache-lhr6324-LHR',
+51 silly registry.get     'x-cache': 'MISS',
+51 silly registry.get     'x-cache-hits': '0',
+51 silly registry.get     'x-timer': 'S1417605564.675372,VS0,VE160',
+51 silly registry.get     'keep-alive': 'timeout=10, max=50',
+51 silly registry.get     connection: 'Keep-Alive' } ]
+52 silly lockFile 2789fa75-Override Override@
+53 silly lockFile 2789fa75-Override Override@
+54 http 200 https://registry.npmjs.org/method
+55 silly registry.get cb [ 200,
+55 silly registry.get   { date: 'Wed, 03 Dec 2014 11:19:25 GMT',
+55 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+55 silly registry.get     etag: '"B8ODZ39GZZ6HZM8WTWQ8IX0MK"',
+55 silly registry.get     'content-type': 'application/json',
+55 silly registry.get     'cache-control': 'max-age=60',
+55 silly registry.get     'content-length': '36750',
+55 silly registry.get     'accept-ranges': 'bytes',
+55 silly registry.get     via: '1.1 varnish',
+55 silly registry.get     age: '0',
+55 silly registry.get     'x-served-by': 'cache-lhr6329-LHR',
+55 silly registry.get     'x-cache': 'MISS',
+55 silly registry.get     'x-cache-hits': '0',
+55 silly registry.get     'x-timer': 'S1417605564.585257,VS0,VE792',
+55 silly registry.get     vary: 'Accept',
+55 silly registry.get     'keep-alive': 'timeout=10, max=50',
+55 silly registry.get     connection: 'Keep-Alive' } ]
+56 silly addNameRange number 2 { name: 'method', range: '*', hasData: true }
+57 silly addNameRange versions [ 'method',
+57 silly addNameRange   [ '0.0.1',
+57 silly addNameRange     '0.0.2',
+57 silly addNameRange     '0.0.3',
+57 silly addNameRange     '0.1.1',
+57 silly addNameRange     '1.0.0',
+57 silly addNameRange     '1.0.1',
+57 silly addNameRange     '1.0.2',
+57 silly addNameRange     '2.0.0' ] ]
+58 verbose addNamed [ 'method', '2.0.0' ]
+59 verbose addNamed [ '2.0.0', '2.0.0' ]
+60 silly lockFile aeb36936-method-2-0-0 method@2.0.0
+61 verbose lock method@2.0.0 C:\Users\Sergio\AppData\Roaming\npm-cache\aeb36936-method-2-0-0.lock
+62 silly lockFile 4c93a70e-pmjs-org-method-method-2-0-0-tgz https://registry.npmjs.org/method/-/method-2.0.0.tgz
+63 verbose lock https://registry.npmjs.org/method/-/method-2.0.0.tgz C:\Users\Sergio\AppData\Roaming\npm-cache\4c93a70e-pmjs-org-method-method-2-0-0-tgz.lock
+64 verbose addRemoteTarball [ 'https://registry.npmjs.org/method/-/method-2.0.0.tgz',
+64 verbose addRemoteTarball   'e449848defa6daef10b8163d9d9aa2d071b7500f' ]
+65 info retry fetch attempt 1 at 12:19:09
+66 verbose fetch to= C:\Users\Sergio\AppData\Local\Temp\npm-8516-JZEG_oxa\registry.npmjs.org\method\-\method-2.0.0.tgz
+67 http GET https://registry.npmjs.org/method/-/method-2.0.0.tgz
+68 http 200 https://registry.npmjs.org/method/-/method-2.0.0.tgz
+69 silly lockFile 4c93a70e-pmjs-org-method-method-2-0-0-tgz https://registry.npmjs.org/method/-/method-2.0.0.tgz
+70 silly lockFile 4c93a70e-pmjs-org-method-method-2-0-0-tgz https://registry.npmjs.org/method/-/method-2.0.0.tgz
+71 silly lockFile aeb36936-method-2-0-0 method@2.0.0
+72 silly lockFile aeb36936-method-2-0-0 method@2.0.0
+73 silly lockFile b5326ea9-method method@
+74 silly lockFile b5326ea9-method method@
+75 error 404 404 Not Found: Override
+75 error 404
+75 error 404 'Override' is not in the npm registry.
+75 error 404 You should bug the author to publish it
+75 error 404 It was specified as a dependency of 'MDBServer'
+75 error 404
+75 error 404 Note that you can also install from a
+75 error 404 tarball, folder, or http url, or git url.
+76 error System Windows_NT 6.2.9200
+77 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "method" "Override"
+78 error cwd C:\Users\Sergio\Documents\GitHub\onlineshopMDB
+79 error node -v v0.10.33
+80 error npm -v 1.4.28
+81 error code E404
+82 verbose exit [ 1, true ]
